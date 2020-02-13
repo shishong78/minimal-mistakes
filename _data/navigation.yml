@@ -1,11 +1,15 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
+  - title: "Home"
+    url: /
+  - title: "About"
+    url: /about/
+  - title: "Research"
+    url: /research/
+  - title: "C.V."
+    url: "https://www.dropbox.com/s/kytd1ahunanj8az/Patrick_Park_CV_Sept_v0_2019.pdf?dl=0"
+  - title: "Links"
+    url: /links/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"

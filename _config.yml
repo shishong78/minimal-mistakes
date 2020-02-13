@@ -10,18 +10,18 @@
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
-# theme                  : "minimal-mistakes-jekyll"
+theme                    : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "contrast" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Patrick Park Title"
+title                    : "Patrick S. Park"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Patrick Park"
+subtitle                 : "Computational Social Scientist" # site tagline that appears below site title in masthead
+name                     : "Patrick S. Park"
 description              : "Welcome to my website!"
-url                      : https://shishong78.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://shishong78.github.io # the base hostname & protocol for your site
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -108,9 +108,9 @@ analytics:
 # Site Author
 author:
   name             : "Patrick Park"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am a computational social scientist and social networks researcher."
-  location         : "Ann Arbor, Michigan"
+  avatar           : #"/images/profile/MIDASsignature-acronym-white-1.png"
+  bio              : "I am a Data Science Fellow at the Michigan Institute for Data Science."
+  location         : "University of Michigan, Ann Arbor, MI, USA"
   email            : "patpark@umich.edu"
   links:
     - label: "Email"
@@ -118,7 +118,7 @@ author:
       # url: mailto:your.name@email.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+      url: "https://shishong78.github.io"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/shishong"
@@ -131,19 +131,21 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
+    - label: "C.V."
+      url: "https://www.dropbox.com/s/kytd1ahunanj8az/Patrick_Park_CV_Sept_v0_2019.pdf?dl=0"
 
 # Site Footer
 footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url:
+      url: https://www.twitter.com/shishong
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      #url: https://github.com/shishong78/
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
@@ -158,7 +160,7 @@ footer:
 # Reading Files
 include:
   - .htaccess
-  - _pages
+  - research/
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -289,7 +291,19 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
+      read_time: false
       comments: # true
       share: true
       related: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+
+
+      
+      
+      
+      
