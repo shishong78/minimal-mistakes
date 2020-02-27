@@ -32,59 +32,11 @@ header:
 
 {:/comment}
 
-{::comment}
-# H1 Heading
-
-## H2 Heading
-
-### H3 Heading
-{:/comment}
-
+## Abstract
+Long-range connections that span large social networks are widely assumed to be weak, composed of sporadic and emotionally distant relationships. However, researchers historically have lacked the population-scale network data needed to verify the predicted weakness. Using data from 11 culturally diverse population-scale networks on four continents—encompassing 56 million Twitter users and 58 million mobile phone subscribers—we find that long-range ties are nearly as strong as social ties embedded within a small circle of friends. These high-bandwidth connections have important implications for diffusion and social integration.
 
 This work was published in [*Science*](https://science.sciencemag.org/content/362/6421/1410).
+Here is a [short video](https://www.dropbox.com/s/t847u2lrwxsbt5e/scipak_strength_of_long_ties.mp4?dl=0) that explains the main findings.
 
-I had some incredibly insightful collaborators, [Michael Macy](https://sites.google.com/site/michaelmacy14/home) and [Josh Blumenstock](http://www.jblumenstock.com/).
-
-Here is a [short video](https://www.dropbox.com/s/t847u2lrwxsbt5e/scipak_strength_of_long_ties.mp4?dl=0) that explains the main findings of this work.
-
-
-Here's some basic text.
-
-And here's some *italics*
-
-Here's some **bold** text.
-
-Here's a bulleted list:
-* First item
-+ Second item
-- Third item
-
-Here's a numbered list:
-1. First
-2. Second
-3. Third
-
-Python code block:
-```python
-    import numpy as np
-
-    def test_function(x, y):
-      z = np.sum(x,y)
-      return z
-```
-
-R code block:
-```r
-library(tidyverse)
-df <- read_csv("some_file.csv")
-head(df)
-```
-
-Here's some inline code `x+y`.
-
-Here's some math:
-
-$$z=x+y$$
-
-You can also put it inline $$z=x+y$$
-
+## Dataset
+For this study, I collected 158 million Twitter user accounts between 2013 and 2014 and constructed bidirected @mention networks in eight countries. The edgelists for these eight countries, with @mention frequency as weights, can be found in [Harvard Dataverse](https://doi.org/10.7910/DVN/NPRNCC).

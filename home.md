@@ -5,7 +5,7 @@ header:
   overlay_color: "#5e616c"
   overlay_image: /images/profile/my_profile_pic_office.jpg
   caption:
-excerpt: 'Dude!'
+excerpt: ''
 feature_row:
   - image_path: /images/wormholes/singapore_wormholes.png
     alt: "customizable"

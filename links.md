@@ -17,3 +17,8 @@ permalink: /links/
 	<a href="http://sociology.yonsei.ac.kr/english">Department of Sociology, Yonsei University</a> 
 	<img src="/images/links/yonsei-university.png">
 </figure>
+
+<figure>
+	<a href="http://www.hrl.com/">HRL Laboratories</a> 
+	<img src="/images/links/hrl-logo.png">
+</figure>

@@ -10,7 +10,7 @@
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
-theme                    : "minimal-mistakes-jekyll"
+#theme                    : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "contrast" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
@@ -110,7 +110,7 @@ author:
   name             : "Patrick Park"
   avatar           : #"/images/profile/MIDASsignature-acronym-white-1.png"
   bio              : "I am a Data Science Fellow at the Michigan Institute for Data Science."
-  location         : "University of Michigan, Ann Arbor, MI, USA"
+  location         : "University of Michigan"
   email            : "patpark@umich.edu"
   links:
     - label: "Email"
@@ -118,10 +118,13 @@ author:
       # url: mailto:your.name@email.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://shishong78.github.io"
+      #url: "https://shishong78.github.io"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/shishong"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: https://www.linkedin.com/in/patrickpark78
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
@@ -131,8 +134,6 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
-    - label: "C.V."
-      url: "https://www.dropbox.com/s/kytd1ahunanj8az/Patrick_Park_CV_Sept_v0_2019.pdf?dl=0"
 
 # Site Footer
 footer:
@@ -155,6 +156,9 @@ footer:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: https://www.linkedin.com/in/patrickpark78
 
 
 # Reading Files
