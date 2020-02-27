@@ -36,7 +36,7 @@ feature_row3:
     btn_class: "btn--primary"
     btn_label: "Read More"
 feature_row4:
-  - image_path: /images/mesh-of-civilizations/pone-0122543-1.png
+  - image_path: /images/mesh-of-civilizations/pone-0122543.png
     title: "Mesh of Civilizations"
     excerpt: "Broad cultural divides continue to structure international communication in the digital age"
     url: "/research/mesh-of-civilizations/"
